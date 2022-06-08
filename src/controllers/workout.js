@@ -1,4 +1,4 @@
-const workoutService = requre("../services/workoutService");
+const workoutService = require("../services/workout");
 
 const getAllWorkouts = (req, res) => {
   const allWorkouts = workoutService.getAllWorkouts();

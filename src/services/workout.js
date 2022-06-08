@@ -20,7 +20,7 @@ const deleteOneWorkout = () => {
 
 module.exports = {
   getAllWorkouts,
-  getOneWorkouts,
+  getOneWorkout,
   createNewWorkout,
   updateOneWorkout,
   deleteOneWorkout,
